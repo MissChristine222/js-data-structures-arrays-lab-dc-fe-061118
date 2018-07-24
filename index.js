@@ -24,7 +24,7 @@ function appendDriver (name) {
 }
 
 function prependDriver (name) {
-  const driversPlusOneFront = ['Arnold', ...drivers,];
+  const driversPlusOneFront = ['Arnold', ...drivers];
 }
 
 
