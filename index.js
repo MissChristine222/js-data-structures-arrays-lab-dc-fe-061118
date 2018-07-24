@@ -20,11 +20,11 @@ function destructivelyRemoveFirstDriver(name) {
 
 
 function appendDriver (name) {
-  const driversPlusOneBack = [...drivers, 'Broom'];
+  const driversPlusAppend = [...drivers, 'Broom'];
 }
 
 function prependDriver (name) {
-  const driversPlusOneFront = ['Arnold', ...drivers];
+  const driversPlusPrepend = ['Arnold', ...drivers];
 }
 
 
