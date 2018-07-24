@@ -29,5 +29,10 @@ function prependDriver (name) {
   return (driversPlusPrepend)
 }
 
+function removeLastDriver (name) {
+  const driversPlusPrepend = ['Arnold', ...drivers];
+  return (driversPlusPrepend)
+}
+
 
 
