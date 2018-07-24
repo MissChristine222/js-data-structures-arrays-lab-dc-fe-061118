@@ -20,7 +20,6 @@ function destructivelyRemoveFirstDriver(name) {
 
 function appendDriver(name) {
   const newarray = [...drivers, 'Broom'];
-  console.log(newarray);
 }
 
 
