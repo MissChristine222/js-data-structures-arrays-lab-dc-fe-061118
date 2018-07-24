@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver(name) {
 }
 
 function appendDriver(name) {
-  newarray=[...drivers, 'Broom'];
+  newarray=(...drivers, 'Broom');
 }
 
 
