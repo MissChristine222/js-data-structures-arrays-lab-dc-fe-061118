@@ -19,7 +19,9 @@ function destructivelyRemoveFirstDriver(name) {
 }
 
 
-const appendDriver = [...drivers, 'Broom'];
+function appendDriver (name) {
+  driversPlusOne = [...drivers, 'Broom'];
+}
 
 
 
