@@ -30,8 +30,8 @@ function prependDriver (name) {
 }
 
 function removeLastDriver (name) {
-  const driversMinusLast = drivers.splice;
-  return (driversPlusPrepend)
+  const driversMinusLast = drivers.splice(1,1);
+  return (driversMinusLast)
 }
 
 
